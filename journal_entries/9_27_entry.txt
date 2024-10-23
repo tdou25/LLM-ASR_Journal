@@ -1,1 +1,20 @@
 9/27 entry
+
+This week I primarily familiarized myself with the existing work for the
+project. This project is a research endeavor run by professor Mei Si 
+from the cognitive science department, trying to develop means of 
+enhancing automatic speech recognition using ASRs. Much of the work is already done, 
+so this semester, the goal will be to develop techniques for edge cases 
+like accents or english of different time periods.
+
+I spent time reading the research paper in particular. The overall 
+approach is corrective, meaning it utilizes Phoenix LLM to check the 
+n-best ASR results and suggest corrections. I also spent time doing paperwork
+to gain access to AiMOS, the machine used to train the model.
+
+I'm unsure of how I may contribute in the future, although I have a few ideas
+
+1. familiarize myself with Whisper, and try to run it locally.
+2. find datasets that could supplement research, as Librispeech is the only
+dataset used now.
+3. catalog the performance of the model on other datasets.
