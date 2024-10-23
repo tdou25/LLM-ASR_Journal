@@ -1,0 +1,7 @@
+Stuff
+-Do huggingface.co fine-tuning tutorial
+	https://huggingface.co/docs/transformers/en/training 
+-Phoenix paper: https://arxiv.org/pdf/2304.10453v1 
+-Familiarize with Whisper, Pythorch
+-Librispeech: https://paperswithcode.com/dataset/librispeech 
+-https://paperswithcode.com/sota/speech-recognition-on-librispeech-test-clean 
