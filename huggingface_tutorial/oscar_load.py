@@ -1,4 +1,5 @@
 from datasets import load_dataset
+from datasets import Audio
 
 from huggingface_hub import login
 
@@ -7,17 +8,21 @@ token = key.read()
 
 login(token)
 
-dataset = load_dataset("oscar-corpus/OSCAR-2301",
-                        language="am", 
-                        streaming=True, 
-                        split="train") 
+dataset = load_dataset("speechcolab/gigaspeech", "xs", streaming=True)
+                        # language="am", 
+                        # streaming=True, 
+                        # split="train") 
 
 iterations = 0
 
-for d in dataset:
-    if iterations > 10:
-        break
+#print(dataset["train"][0])
 
-    print(d) 
-    iterations += 1
+gigaspeech = dataset.cast_column("audio", Audio(sampling_rate=8000))
+
+# for d in dataset:
+#     if iterations > 10:
+#         break
+
+#     print(d) 
+#     iterations += 1
 
