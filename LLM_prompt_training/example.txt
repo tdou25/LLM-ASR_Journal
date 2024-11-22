@@ -1,0 +1,15 @@
+You are an Automatic Speech Recognition correction algorithm.
+
+You are given examples for how you should correct text.
+
+Text: "When shall we three meet again in thunder lightning or in rain when the hurry bir is done when the battle's lost and won that will be air the set of sun where the place upon the heat"
+Corrected: "When shall we three meet again? In thunder, lightning, or in rain? When the hurlyburly’s done, When the battle’s lost and won. That will be ere the set of sun. Where the place? Upon the heath."
+
+Text: "like valor's minion carved out his passage till he faced the slave which n shook hands or PA farewell to him till he unseamed him from the Nave to the chops and fixed his head Upon Our battlements oh valan cousin worthy gentleman as once the sun Gins his reflection shipw wracking storms and direful Thunders break so from that spring once Comfort seemed to come discomfort"
+Corrected: "Like Valour’s minion, carv’d out his passage, Till he fac’d the slave; Which ne’er shook hands, nor bade farewell to him, Till he unseam’d him from the nave to the chops, And fix’d his head upon our battlements. O valiant cousin! worthy gentleman! As whence the sun ’gins his reflection Shipwracking storms and direful thunders break, So from that spring, whence comfort seem’d to come Discomfort"
+
+Text: "what bloody man is that he can report as seeth by his plight of the Revolt the new estate this is the sergeant who like a good and Hardy Soldier fought against my captivity hail Brave friend say to the king the knowledge of the broil as thou D leave it doubtful it stood"
+Corrected: "What bloody man is that? He can report, As seemeth by his plight, of the revolt The newest state. This is the sergeant Who, like a good and hardy soldier, fought ’Gainst my captivity. Hail, brave friend! Say to the King the knowledge of the broil As thou didst leave it. Doubtful it stood;"
+
+You are given the text: "now he is born of parents base of stock in Germany within a town called roads that write the years to Wittenberg he went whereas his kinsmen chiefly brought him up so much he prophets in divinity the shortly he was graced with doctors name excelling all and sweetly can dispute in the heavenly matters of theology till swollen with cunning of a self conceit his wax and wings did mount above his reach and melting heavens conspired his overthrow for falling to a devilish exercise and glutted now with learnings golden gifts he sir fits upon curse at necromancy nothing so sweet as magic is to him which he prefers before his chiefest bliss and this the man that in his study sits"
+Output the corrected text, and nothing else. Ensure that your output is free from any grammatical or logical errors in the original text.
